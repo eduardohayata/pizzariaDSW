@@ -47,3 +47,17 @@ CREATE TABLE produto
 )ENGINE = InnoDB;
 
 INSERT INTO usuario (codigo, login, senha) VALUES (1, 'admin', '123');
+
+
+CREATE TABLE pedido 
+(
+   codigo           INTEGER NOT NULL,
+   cod_cliente	    INTEGER NOT NULL,
+   descricao	    VARCHAR(30),
+   DATA	 DATE,
+   PRIMARY KEY (codigo),
+   FOREIGN KEY (cod_cliente) REFERENCES cliente(codigo) ON DELETE CASCADE
+);
+
+INSERT INTO pedido VALUES (1, 1, 'Pedido 1', '2012-06-17');
+
