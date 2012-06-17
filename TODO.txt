@@ -3,3 +3,16 @@
 - Parte Grafica (estilo restauranteweb) --> Joseandro;
 - Carrinho de compras --> Tiago/Paulo/Eduardo;
 
+--> Especificações do Projeto:
+Quanto a apresentação do projeto, ele precisa contemplar os seguintes itens:
+- Uso do padrao MVC
+- Uso de JSPs e servlets só quando for extritamente necessário.
+Implementação de todas funcionalidades preconizadas (cadastros diversos, registro das negras de negócio principais e pelo menos 5 tipos de consultas/relatórios em tela)
+- Uso de Java Beans
+- Controle de acesso. Deve existir tipos diferentes de usuários que possuem acesso a partes diferentes do sistema. Usar controle de sessões.
+- Persistência com Hibernate
+- Uso de páginas de erro de jsp
+- Uso de CSS (primeiro seminário apresentado)
+- Uso de alguma tecnologia para melhorar a aparência das interfaces (ajax, prime faces, etc. Também podem usar algo que não foi dado nos seminários)
+- Adequada estruturação das tabelas do banco
+- Boa usabilidade.
