@@ -41,7 +41,8 @@ CREATE TABLE cliente
 CREATE TABLE produto
 (
    codigo 			INTEGER NOT NULL,
-   descricao      	VARCHAR(40),
+   nome             VARCHAR(40),
+   descricao      	VARCHAR(90),
    preco			FLOAT,
    PRIMARY KEY(codigo)
 )ENGINE = InnoDB;
